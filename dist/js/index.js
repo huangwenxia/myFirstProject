@@ -1,0 +1,1 @@
+"use strict";function routerHelp(e,r){e.state("main",{url:"/main",templateUrl:"view/main.html",controller:"mainCtrl"}),r.otherwise("main")}angular.module("app",["ui.router"]),angular.module("app").config(["$stateProvider","$urlRouterProvider",routerHelp]),routerHelp.$inject=["$state","$scope","$ionicPopup"];
